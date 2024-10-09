@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: bisque;
+}
+form input[type="text"]{
+    height: 20px;
+    border: none;
+    display: block;
+    
+    border-bottom: 2px solid crimson;
+    font-size: 20px;
+    outline: none;
+}
+.container{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+form input[type="text"]:hover{
+   border-bottom: green;
+}
+select{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    width: 250px;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+   background-color: aqua;
+}
+.hero{
+    position:absolute;
+    top: 20px;
+    left: 25%;
+
+}
+.answer{
+    color: green;
+    font-size: 30px;
+}
+h3{
+    position:relative;
+  
+    left: 700px; 
+}
